@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "disconnecter9000",
+	"version": "${version}",
+	"name": "Disconnecter 9000",
+	"description": "A disconnect mod to quickly disconnect (especially if you crash when logging out).",
+	"authors": [
+		"SoupChugger"
+	],
+	"contact": {
+		"homepage": "https://www.youtube.com/channel/UCEDex7zv4806C7OBv88pkYA",
+			"sources": "https://youtu.be/r7l0Rq9E8MY?si=z5yU0EYKvUncHlCC"
+	},
+	"license": "MIT",
+	"icon": "assets/disconnecter9000/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jeff.disconnecter9000.Disconnecter9k"
+		],
+		"client": [
+			"net.jeff.disconnecter9000.Disconnecter9kClient"
+		],
+		"fabric-datagen": [
+			"net.jeff.disconnecter9000.Disconnecter9kDataGenerator"
+		]
+	},
+	"mixins": [
+		"disconnecter9000.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
