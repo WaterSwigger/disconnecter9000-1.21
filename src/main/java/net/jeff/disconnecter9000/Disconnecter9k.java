@@ -19,7 +19,7 @@ public class Disconnecter9k implements ModInitializer {
 				"key.disconnecter9000.disconnect", // The translation key of the keybinding's name
 				InputUtil.Type.KEYSYM, // The type of the keybinding, KEYSYM for keyboard keys
 				GLFW.GLFW_KEY_DELETE, // The keycode of the key, GLFW.GLFW_KEY_DELETE for the delete key
-				"key.disconnecter9000.disconnect" // The translation key of the keybinding's category
+				"category.disconnecter9000" // The translation key of the keybinding's category
 		));
 
 		// Register the client tick event to check for key presses
