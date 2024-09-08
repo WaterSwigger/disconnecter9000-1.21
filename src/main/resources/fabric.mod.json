@@ -12,7 +12,6 @@
 			"sources": "https://youtu.be/r7l0Rq9E8MY?si=z5yU0EYKvUncHlCC"
 	},
 	"license": "MIT",
-	"icon": "assets/disconnecter9000/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -26,11 +25,11 @@
 		]
 	},
 	"mixins": [
-		"disconnecter9000.mixins.json"
+		"mixins.disconnecter9000.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.21",
+		"minecraft": ">=1.21",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
